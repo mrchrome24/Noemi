@@ -735,6 +735,27 @@ ul {
         margin-top: 20px;
     } 
 
-}
+    .social-sidebar, .social-footer{
+        justify-content: space-between;    
+    }
 
+    .post-top {
+        flex-direction: column;
+
+    }
+
+    .post-top-col {
+        width: 100%;
+        margin-bottom: 1%;
+        height: 180px;
+    }
+    .post-top-col>div {
+        align-self: center;
+        bottom: inherit;
+    }   
+
+    .main-block{
+        margin: 0 auto;
+    }
+}
 
