@@ -735,8 +735,16 @@ ul {
         margin-top: 20px;
     } 
 
+    .social-post{
+        margin-top: inherit;    
+    }
+
     .social-sidebar, .social-footer{
         justify-content: space-between;    
+    }
+
+    .sidebar>div {
+        margin-top: 130px;
     }
 
     .post-top {
@@ -757,5 +765,14 @@ ul {
     .main-block{
         margin: 0 auto;
     }
-}
 
+    .footer-gallery, .footer-gallery-thumb{
+        display: inline-block;
+    }
+    .footer-gallery-thumb{
+        width: 32%;
+    }
+    .footer-gallery-thumb:last-child {
+        display: none;
+    }
+}
