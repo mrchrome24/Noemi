@@ -1,2 +1,0 @@
-# noemi
-typicalfrontend basic curse

@@ -776,3 +776,16 @@ ul {
         display: none;
     }
 }
+
+.header{
+    transition: 0.3s;
+}
+
+.fix{
+    position: fixed;
+    width: calc(100% - 114px);
+    background-color: #ffffff;
+    border-bottom: 1px solid #888888;
+    top: 0;
+    z-index: 100;
+}
