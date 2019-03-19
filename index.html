@@ -380,21 +380,31 @@
         </ul>
     </div>
     <div class="footer-copyright">
-        <a class="btn-top" href="">on top</a>
+        <a class="btn-top" href="javascript::">on top</a>
         <p class="footer-copyright__text">Copyright © 2009–2016 City Blog LLC.</p>
     </div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
-    $(window).scroll(function() {
-    if ($(this).scrollTop() > 1){
-        $('.header').addClass("fix");
-    }
-    else{
-        $('.header').removeClass("fix");
-    }
-    });
+		$(window).scroll(function() {
+		   if ($(this).scrollTop() > 1){
+		      $('.header').addClass("fix");
+		   }
+		   else{
+		      $('.header').removeClass("fix");
+		   }
+		});
+
+		$(document).ready(function(){   
+		    $('.btn-top').click(function () {
+		        $('body,html').animate({
+		            scrollTop: 0
+		        }, 500);
+		        return false;
+		    });
+		});
+
 </script>
 
 </body>
