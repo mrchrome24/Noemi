@@ -487,6 +487,63 @@ ul {
     margin-bottom: 30px;
 }
 
+.sidebar-block-categories>div{
+    margin-bottom: 20px;
+}
+
+.sidebar-block__input{
+    background-color: #f4f7f6;
+    height: 48px;
+    width: calc(100% - 18px);
+    outline: none;
+    border-radius: 0px;   
+    border: none;
+    padding-left: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+
+.sidebar-block__submit{
+    height: 48px;
+    width: 100%;
+    outline: none;
+    border-radius: 0px;
+    border: none;
+    background-color: #b59f5b;
+    color: #ffffff;
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: 700;       
+}
+
+.sidebar-block-search{
+    position: relative;
+}
+
+.sidebar-block-search__input{
+    margin-top: 16px;    
+}
+
+
+.sidebar-block-search__submit{
+    position: absolute;
+    width: 48px;
+    top: 16px;
+    right: 0;
+    background-image: url(../img/search.svg);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sidebar-block-banner__img{
+    height: 368px;
+    max-width: 100%;
+}
+
 .social-sidebar{
     justify-content: space-between;
     padding: 0 29px 11px;
@@ -541,7 +598,7 @@ ul {
 
 .sidebar-block-list>li>span{
     color: #b59f5b;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 12px;
     font-weight: 700;
     display: inline-block;
@@ -700,6 +757,7 @@ ul {
     }
     .sidebar {
         width: 100%;
+        margin-top: 150px;
     }
 
     .post {
